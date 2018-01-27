@@ -7,6 +7,6 @@ import { Title, Meta } from '@angular/platform-browser';
 export class LandingComponent {
 
 	constructor(private title:Title, private meta:Meta) {
-		title.setTitle('PT Bangun Daya Persada - Solusi Logistik');
+		title.setTitle('TP Angular 5 Universal Starter Example');
 	}
 }
