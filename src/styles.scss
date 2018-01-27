@@ -1,0 +1,26 @@
+// 0. import mixins
+@import './assets/styles/mixins/_animation';
+@import './assets/styles/mixins/_appearance';
+@import './assets/styles/mixins/_background-size';
+@import './assets/styles/mixins/_border-radius';
+@import './assets/styles/mixins/_box-shadow';
+@import './assets/styles/mixins/_box-sizing';
+@import './assets/styles/mixins/_breakpoint';
+@import './assets/styles/mixins/_calc';
+@import './assets/styles/mixins/_flex';
+@import './assets/styles/mixins/_flexbox';
+@import './assets/styles/mixins/_helper-gradient-angle';
+@import './assets/styles/mixins/_linear-gradient';
+@import './assets/styles/mixins/_multiple-backgrounds';
+@import './assets/styles/mixins/_multiple-colored-gradient';
+@import './assets/styles/mixins/_opacity';
+@import './assets/styles/mixins/_placeholder';
+@import './assets/styles/mixins/_rem';
+@import './assets/styles/mixins/_tab-size';
+@import './assets/styles/mixins/_transform';
+@import './assets/styles/mixins/_transition';
+@import './assets/styles/mixins/_user-select';
+
+// 1. import main styles
+@import './assets/styles/main/_font';
+@import './assets/styles/main/_base';

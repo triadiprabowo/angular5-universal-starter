@@ -1,0 +1,54 @@
+@import './_constant';
+
+html,
+html a {
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+body {
+	font-family: $font_stack_content;
+	font-size: $font_base_content;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+	background-color: $color_base_body;
+}
+
+h1, h2, h3, h4, h5, h6, th {
+	font-family: $font_stack_heading;
+}
+
+li, p, pre, td, a {
+	font-family: $font_stack_content;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: $margin_px_sm;
+	line-height: 1.35em;
+}
+
+pre {
+	word-break: break-word;
+	white-space: pre-line;
+	line-height: 1.5em;
+	font-size: $font_base_content;
+	border: 0;
+	background-color: transparent;
+
+	&.bold {
+		font-weight: bold;
+	}
+}
+
+p {
+	font-size: $font_base_content;
+	line-height: 1.65em;
+
+	&.bold {
+		font-weight: bold;
+	}
+}
+
+button {
+	font-family: $font_stack_heading;
+}
